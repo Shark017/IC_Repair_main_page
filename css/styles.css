@@ -1,0 +1,1343 @@
+@font-face {
+    src: url('../fonts/Nunito_Sans/NunitoSans-Regular.ttf');
+    font-family: "Nunito Sans";
+}
+
+@font-face {
+    src: url('../fonts/Yeseva_One/YesevaOne-Regular.ttf');
+    font-family: "Yeseva One";
+}
+
+@media (max-width: 1300px) {
+    .header {display: none;}
+    .main__showcase {display: none;}
+    .completed__projects {display: none;}
+    .online__control {display: none;}
+    .repair__types {display: none;}
+    .your__request {display: none;}
+    .fantasy__realization {display: none;}
+    .our__clients {display: none;}
+    .our__location {display: none;}
+    .footer {display: none;}
+}
+
+@media (min-width: 1301px) {
+    .header__mobile {display: none;}
+    .main__showcase-mobile {display: none;}
+    .completed__projects-mobile {display: none;}
+    .online__control-mobile {display: none;}
+    .types__repair-mobile {display: none;}
+    .mobile__footer {display: none;}
+}
+
+body {
+    margin: 0px;
+    font-family: "Nunito Sans";
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1256px;
+}
+
+.title01 {
+    width: 257px;
+    line-height: 27px;
+}
+
+.title01, .fantasy__realization-list a:link, .fantasy__realization-list a:visited, .fantasy__realization-list ul {
+    font-size: 20px;
+}
+
+.header {
+    margin-top: 5px; 
+}
+
+.header, .button, .footer__content-container, .header__mobile-container {
+    line-height: 15px;
+}
+
+.header, .button, .footer__content-container, .header__mobile-container, .completed__projects-mobile-container > p,
+.completed__projects-mobile-details-container > div > p, .online__control-mobile-container > p {
+    font-size: 11px;
+}
+
+.header__content {
+    height: 80px;
+}
+
+.header__content, .our__clients-main-content-repair-options, .footer__content-container {
+    align-items: center;
+}
+
+.header__content, .header__content-navigation, .completed__projects-container, .completed__projects-left-side-container, 
+.completed__projects-right-side-link > ul, .online__control-form-personal-data, .repair__types-main-content, .your__request-container,
+.your__request-left-side-content-list, .your__request-left-side-content-list-item, 
+.your__request-right-side-content-piggy-bank-container, .fantasy__realization-container, .our__clients-main-content, 
+.our__clients-main-content-feedback-header, .our__clients-main-content-repair-options, .our__clients-have-any-questions-form-container,
+.footer__content-container, .header__mobile-container, .completed__projects-mobile-details-container {
+    display: flex;
+}
+
+.container, .completed__projects-container, .title01, .online__control-header, .online__control-decor-line ~ p, 
+.your__request-right-side-content-form-header, .your__request-right-side-content-form-name-div, .our__location-on-the-map, 
+.header__mobile-container, .main__showcase-mobile-container > h1.title {
+    margin: 0 auto;
+}
+
+.header, .completed__projects, .your__request-right-side-content-form-name, 
+.your__request-right-side-content-form-phone, .our__clients-have-any-questions-form,
+.our__clients-have-any-questions-form-name > input, .our__clients-have-any-questions-form-phone > input, 
+.our__clients-have-any-questions-form-question > input {
+    background-color: black;
+}
+
+.header__content-phone:link, .header__content-phone:visited, .header__content-phone:hover, .button {
+    font-family: "Nunito Sans";
+}
+
+.main__showcase-title, .completed__projects-left-side > h2, .completed__projects-left-side > div > div > h3, .completed__projects-right-side-item:link, 
+.completed__projects-right-side-item:visited, .title01, .repair__types-main-content-block-text > h3, .repair__types-main-content-block-text-price-block, 
+.our__clients-main-content-feedback-header > h4, .main__showcase-mobile-container > h1.title, .completed__projects-mobile-container > h2.title, 
+.completed__projects-mobile-details-container > div > h3, .types__repair-mobile-container-header, .types__repair-mobile-text-header, 
+.types__repair-mobile-price-block {
+    font-family: "Yeseva One";
+}
+
+
+.header__content-logo, .button, .main__showcase-title, .completed__projects-left-side > h2, .completed__projects-left-side > div > div > h3,
+.completed__projects-right-side-item:link, .completed__projects-right-side-item:visited, .title01, 
+.repair__types-main-content-block-text-price-block, .header__mobile-container-text, .main__showcase-mobile-container > h1.title,
+.completed__projects-mobile-container > h2.title, .completed__projects-mobile-details-container > div > h3, .types__repair-mobile-price-block {
+    text-transform: uppercase;
+}
+
+.header__content-logo, a.header__content-navigation-link:hover, .header__content-phone:link, .header__content-phone:visited, 
+.header__content-phone:hover, .yellow-text, .completed__projects-left-side > h2, .completed__projects-left-side > div > div > h3,
+.button, .title01, .your__request-right-side-content-piggy-bank-container > p, .our__location-on-the-map-adress, 
+.header__mobile-container-text, .completed__projects-mobile-container > h2.title, .completed__projects-mobile-details-container > div > h3, 
+.mobile__footer-container-header, .mobile__footer-container-our-location-adress {
+    color: #E3B873;
+}
+
+.header__content-navigation-link, .button, .main__showcase, .completed__projects, .online__control-header, .repair__types-main-content-block-text-price-block,
+.your__request-left-side-content-list-item-number, .your__request-right-side-content-form,.your__request-right-side-content-form-name, 
+.your__request-right-side-content-form-phone, .second-checkbox-text, .third-checkbox-text, .fantasy__realization-list a:link, 
+.fantasy__realization-list a:visited, .fantasy__realization-list ul, .our__clients-have-any-questions-form > h3,
+.our__clients-have-any-questions-form-name > input, .our__clients-have-any-questions-form-phone > input, 
+.our__clients-have-any-questions-form-question > input, .header__mobile-container, .completed__projects-mobile-container > p, 
+.completed__projects-mobile-details-container, .online__control-mobile-container-title, .main__showcase-mobile-container, 
+.online__control-mobile-container, .label02, .types__repair-mobile-price-block, .mobile__footer-container-subtitle {
+    color: white;
+}
+
+.header__content, .header__content-navigation, .repair__types-main-content, .your__request-container, .our__clients-main-content, 
+.footer__content-container {
+    justify-content: space-between;
+}
+
+.header__content-logo, .button {
+    margin-left: 3px;
+}
+
+.header__content-navigation {
+    width: 580px;
+    margin-left: 40px;
+}
+
+.header__content-navigation, .your__request-left-side-content-list {
+    list-style: none;
+}
+
+.header__content-navigation-item {
+    margin-right: 55px;
+}
+
+.header__content-navigation-link, .completed__projects-right-side-item:link, .completed__projects-right-side-item:visited, .fantasy__realization-list a:link, 
+.fantasy__realization-list a:visited, .fantasy__realization-list ul {
+    text-decoration: none;
+}
+
+.header__content-phone:link, .header__content-phone:visited, .header__content-phone:hover {
+    margin-left: 50px;
+}
+
+.button, .completed__projects-right-side-item:link, .completed__projects-right-side-item:visited,
+.completed__projects-left-side-left-arrow, .completed__projects-left-side-project-selector01, 
+.completed__projects-left-side-project-selector02, .completed__projects-left-side-project-selector03, 
+.completed__projects-left-side-right-arrow, .completed__projects-mobile-container-ellipse-left:hover, 
+.completed__projects-mobile-container-ellipse-right:hover, .mobile__footer-container-ellipse-left,
+.mobile__footer-container-ellipse-right {
+    cursor: pointer;
+}
+
+.button {
+    box-shadow: 0px, 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 11px 35px;
+    font-style: italic;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    outline: 1px solid white;
+}
+
+.button, .repair__types-main-content-block-text-price-block, .types__repair-mobile-price-block {
+    background-color: #E3B873;
+}
+
+.main__showcase, .main__showcase-container, .completed__projects, .completed__projects-container, 
+.online__control-container {
+    position: relative;
+}
+
+.main__showcase {
+    background-image: url('../img/Main-showcase.jpg');
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+}
+
+.main__showcase-container {
+    z-index: 1;
+}
+
+.main__showcase-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.main__showcase-title {
+    margin: -5px 0 0 45px;
+    font-size: 40px;
+    line-height: 53.13px;
+}
+
+.main__showcase-subtitle, .online__control-mobile-container > h2, .types__repair-mobile-container-header {
+    font-size: 22px;
+}
+
+.main__showcase-subtitle {
+    margin: 20px 0 0 45px;
+    line-height: 36px;
+    letter-spacing: -0.3px;
+}
+
+.main__showcase-calculate-cost-button {
+    margin: 23px 14px 0 43px;
+    padding: 18px 45px;
+}
+
+.main__showcase-submit-aplication-button {
+    padding: 18px 30px;
+}
+
+.completed__projects-container {
+    max-width: 1171px;
+    padding: 107px 0px 415px 0px;
+}
+
+.completed__projects-left-side {
+    width: 442px;
+}
+
+.completed__projects-left-side-container, .completed__projects-mobile-details-container {
+    flex-wrap: wrap;
+}
+
+.completed__projects-left-side > h2 {
+    margin: 67px 0 25px 0;
+    line-height: 37.4px;
+    letter-spacing: -1.5px;
+}
+
+.completed__projects-left-side > h2, .fantasy__realization-header {
+    font-size: 27px;
+}
+
+.completed__projects-left-side > div > div > h3, .mobile__footer-container-our-location-adress {
+    line-height: 25px;
+}
+
+.completed__projects-left-side > div > div > h3 {
+    margin: 0;
+}
+
+.completed__projects-left-side > div > div > h3, .online__control-decor-line ~ p, .repair__types-main-content-block-text > h3,
+.repair__types-main-content-block-text-price-block, .your__request-right-side-content-form-header, 
+.your__request-right-side-content-piggy-bank-container > p, .our__clients-container > h4,
+.our__clients-main-content-feedback-header > h4, .mobile__footer-container-our-location-adress {
+    font-size: 18px;
+}
+
+.completed__projects-left-side-container > div > p, .online__control-form-personal-data > div > p, 
+.online__control-form-personal-data-button-submit, .repair__types-main-content-block-text-lists,
+.your__request-right-side-content-form > div > p, .btn-your-request, .our__clients-main-content-feedback-header ~ p, 
+.online__control-mobile-form01-container-div > p, .our__clients-have-any-questions-form-button, 
+.our__clients-have-any-questions-form-name-text, .our__clients-have-any-questions-form-phone-text, 
+.our__clients-have-any-questions-form-question-text, .types__repair-mobile-text-lists {
+    font-size: 13px;
+}
+
+.completed__projects-left-side-container > div > p {
+    line-height: 21.3px;
+}
+
+.completed__projects-left-side > h2 + p, .your__request-left-side-content-list-item-text, .online__control-form-first-checkbox-text, 
+.main__showcase-mobile-container > h2.subtitle, .completed__projects-mobile-details-container > div > h3  {
+    font-size: 14px;
+}
+
+.completed__projects-left-side > h2 + p  {
+    line-height: 26.7px;
+}
+
+
+.completed__projects-left-side-container01 > p, .completed__projects-left-side-container02 > p, .completed__projects-left-side-container03 > p, 
+.completed__projects-left-side-container04 > p {
+    margin-top: 5px;
+}
+
+.completed__projects-left-side-container02 {
+    margin: 0 30px 0 100px;
+}
+
+.completed__projects-left-side-container01, .completed__projects-left-side-container02 {
+    margin-top: 35px;
+}
+
+.completed__projects-left-side-container03, .completed__projects-left-side-container04 {
+    margin: 20px 0 70px 0;
+}
+
+.completed__projects-left-side-container04 {
+    margin-left: 65px;
+}
+
+.completed__projects-left-side-left-arrow {
+    margin-right: 30px;
+}
+
+.completed__projects-left-side-project-selector01, .completed__projects-left-side-project-selector02,
+.completed__projects-left-side-project-selector03 {
+    margin: 0 12px 2px 0;
+}
+
+.completed__projects-left-side-right-arrow {
+    margin-left: 13px;
+}
+
+.completed__projects-left-side-project-selector01:hover, .completed__projects-left-side-project-selector02:hover, 
+.completed__projects-left-side-project-selector03:hover, .repair__types-main-content-block-text, .types__repair-mobile-text-block {
+    background-color: white;
+}
+
+.completed__projects-left-side-project-selector01:hover, .completed__projects-left-side-project-selector02:hover, 
+.completed__projects-left-side-project-selector03:hover {
+border-radius: 45%;
+}
+
+#completed__projects-right-side {
+    width: 679px;
+    margin: -20px 0 0 50px;
+}
+
+.completed__projects-right-side-slider {
+    margin-top: 50px;
+}
+
+.completed__projects-right-side-link > ul {
+    justify-content: flex-start;
+    margin-left: -40px;
+}
+
+.completed__projects-right-side-link > ul, .fantasy__realization-list a:link, .fantasy__realization-list a:visited, .fantasy__realization-list ul {
+    list-style-type: none;
+}
+
+.completed__projects-right-side-item:link, .completed__projects-right-side-item:visited {
+    font-size: 14px;
+    line-height: 19,4px;
+    color: rgba(255, 255, 255, .3);
+    margin-right: 60px;
+}
+
+.completed__projects-right-side-item:hover {
+    color: #E3B873;
+    text-decoration: underline;
+}
+
+.completed__projects-right-side > img {
+    margin-top: 35px;
+}
+
+.link01.active-link, .link02.active-link, .link03.active-link {
+    color: #E3B873;
+    text-decoration: underline;
+}
+
+.online__control-container {
+    width: 1440px;
+    margin: -333px auto 0;
+}
+
+.online__control-header {
+    width: 182px;
+}
+
+.online__control-top-element-images {
+    margin: 10px auto 0;
+    width: 118px;
+}
+
+.online__control-top-element-line-icon-left, .online__control-top-element-line-icon-right {
+    margin-bottom: 10px;
+}
+
+.online__control-top-element-line-icon-left {
+    margin-right: 5px;
+}
+
+.online__control-top-element-line-icon-right {
+    margin-left: 5px;
+}
+
+.online__control-video {
+    margin: 30px auto 0;
+    display: block;
+}
+
+.online__control-decor-line {
+    width: 55px;
+    margin: 45px auto 22px;
+}
+
+.online__control-decor-line ~ p {
+    width: 681px;
+    line-height: 36.83px;
+    letter-spacing: -0.2px;
+}
+
+.online__control-decor-line ~ p, .repair__types-main-content-block-text-price-block,.your__request-right-side-content-form-header, 
+.our__clients-container > h4, .our__location-on-the-map-adress, .completed__projects-mobile-container > h2.title, 
+.completed__projects-mobile-container > p, .online__control-mobile-container > h2,.online__control-mobile-container > p, 
+.types__repair-mobile-container-header, .types__repair-mobile-price-block, .mobile__footer-container-header, 
+.mobile__footer-container-subtitle, .mobile__footer-container-our-location-adress {
+    text-align: center;
+}
+
+.online__control-decor-line ~ p, .online__control-form-first-checkbox-text, .repair__types-main-content-block-text > h3, .your__request-left-side-content-list-item-text {
+    color: #363636;
+}
+
+.online__control-form-personal-data {
+    margin: 50px 0 0 335px;
+}
+
+.online__control-form-personal-data > div {
+    margin-right: 115px;
+}
+
+.online__control-form-personal-data > div > p {
+    color: rgba(54, 54, 54, 0.5);
+    margin: 30px 0 0 0;
+}
+
+.online__control-form-personal-data-name, .online__control-form-personal-data-phone {
+    height: 10px;
+    height: 20px;
+    line-height: 20px;
+    border: none;
+}
+
+.online__control-form-personal-data-name::-webkit-input-placeholder, .online__control-form-personal-data-phone::-webkit-input-placeholder { /* для webkit-браузеров */
+    color: #363636;
+    font-size: 14px;
+    line-height: 23px;
+    font-family: "Nunito Sans";
+}
+
+.online__control-form-personal-data-button-submit {
+    width: 200px;
+    height: 51px;
+    margin: 30px 0 0 -5px;
+    line-height: 26.6px;
+}
+
+.online__control-form-personal-data-button-submi, .btn-your-request, .our__clients-have-any-questions-form-button, 
+.main__showcase-mobile-container-calculate-cost-button, .main__showcase-mobile-container-submit-aplication-button {
+    font-style: normal;
+}
+
+.online__control-form-personal-data-button-submit:hover {
+    background-color: rgba(0, 0, 0, .7);
+    border-color: transparent;
+}
+
+.button:hover {
+    background-color: blackrgba(255, 255, 255, 0);
+    outline: 1px solid white;
+}
+
+.online__control-form-first-checkbox {
+    margin: 32px 575px;
+}
+
+.online__control-form-first-checkbox-label {
+    cursor: pointer;
+}
+
+.online__control-form-first-checkbox-input {
+    display: none;
+}
+
+.online__control-form-first-checkbox-fake {
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: black;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.online__control-form-first-checkbox-fake::before {
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+}
+.online__control-form-first-checkbox-input:checked + .online__control-form-first-checkbox-fake::before {
+    opacity: 1;
+}
+
+.online__control-form-first-checkbox-text {
+    line-height: 23px;
+}
+
+.repair__types-container {
+    margin: 70px auto;
+    width: 1236px;
+}
+
+.repair__types-header {
+    margin-left: 529px;
+}
+
+.repair__types-header, .our__clients-container > h3, .types__repair-mobile-container-header {
+    color: black;
+}
+
+.repair__types-header, .repair__types-main-content-block-text-header, .fantasy__realization-header, .our__clients-container > h3, 
+.our__clients-container > h4, .our__clients-main-content-feedback-header > h4, .mobile__types-repair-container-title, 
+.types__repair-mobile-container-header, .types__repair-mobile-text-header, .mobile__footer-container-header, 
+.mobile__footer-container-our-location-adress {
+    font-weight: 400;
+}
+
+.repair__types-line-icon01 {
+    margin: 20px 0 10px 560px;
+}
+
+.repair__types-hammer-icon01 {
+    margin: 10px 0 0 5px;
+}
+
+.repair__types-line-icon02 {
+    margin: 20px 0 10px 10px;
+}
+
+.repair__types-main-content {
+    margin-top: 30px;
+}
+
+.repair__types-main-content-block-left-image, .repair__types-main-content-block-middle-image, .repair__types-main-content-block-right-image {
+    width: 392px;
+    height: 421px;
+    background-size: cover;
+}
+
+.repair__types-main-content-block-left-image {
+    background-image: url('../img/Types-of-repar-left.jpg');
+}
+
+.repair__types-main-content-block-text {
+    width: 330px;
+    margin: -130px auto 23px;
+    z-index: 2;
+}
+
+.repair__types-main-content-block-text > h3 {
+    margin: 0 0 0 34px;
+}
+
+.repair__types-main-content-block-text > h3, .repair__types-main-content-block-text-price-block  {
+    line-height: 24.95px;
+}
+
+.repair__types-main-content-block-text-header {
+    padding-top: 25px;
+}
+
+.repair__types-main-content-block-text-lists {
+    line-height: 26.6px;
+    margin: 8px 0 18px 9px;
+}
+
+.repair__types-main-content-block-text-lists, .our__clients-main-content-feedback-header ~ p, 
+.types__repair-mobile-text-lists {
+    color: #959595;
+}
+
+.repair__types-main-content-block-text-price-block { 
+    width: 228px;
+    padding: 15px 0;
+}
+
+.repair__types-main-content-block-middle-image {
+    background-image: url('../img/Types-of-repar-middle.jpg');
+}
+
+.repair__types-main-content-block-right-image {
+    background-image: url('../img/Types-of-repar-right.jpg');
+}
+
+.your__request-container {
+    margin: 190px auto 0;
+    max-width: 1643px;
+}
+
+.your__request-left-side-content {
+    width: 1006px;
+    height: 645px;
+    background-image: url("../img/Your-request-building.jpg");
+}
+
+.your__request-left-side-content-list {
+    flex-direction: column;
+}
+
+.your__request-left-side-content-list-item {
+    margin: 52px 0 50px 310px;
+}
+
+.your__request-left-side-content-list-item-number {
+    margin: -40px 0 0 10px;
+    width: 20px;
+}
+
+.your__request-left-side-content-list-item-text, .main__showcase-mobile-container > h2.subtitle {
+    line-height: 19px;
+}
+
+.your__request-left-side-content-list-item-text {
+    margin: 3px 0 0 20px;
+}
+
+.text-center {
+    margin-top: 12px;
+}
+
+.your__request-right-side-content-form {
+    background: black;
+    width: 506px;
+    height: 509px;
+    margin: 50px 200px 0 0;
+}
+
+.your__request-right-side-content-form-header {
+    line-height: 25.8px;
+    width: 297px;
+    padding-top: 30px;
+}
+
+.your__request-right-side-content-form > div > p {
+    color:rgba(255, 255, 255, 0.5);
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.your__request-right-side-content-form-name-div, .your__request-right-side-content-form-phone-div  {
+    width: 408px;
+}
+
+.your__request-right-side-content-form-phone-div {
+    margin: 55px auto;
+}
+
+.your__request-right-side-content-form-name, .your__request-right-side-content-form-phone {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    margin: 6px 0 0 -2px;
+}
+
+.your__request-right-side-content-form-name::-webkit-input-placeholder, .your__request-right-side-content-form-phone::-webkit-input-placeholder {
+    color: white;
+    font-size: 14px;
+    line-height: 23px;
+    font-family: "Nunito Sans";
+}
+
+.second-checkbox {
+    margin: -35px 0 0 49px;
+}
+
+.btn-your-request {
+    margin: 35px 0 0 244px;
+    font-family: "Nunito Sans";
+    line-height: 21.28px;
+    padding: 14px 38px;
+}
+
+.your__request-right-side-content-piggy-bank-img {
+    margin: 35px 0 0 30px;
+}
+
+.your__request-right-side-content-piggy-bank-container > p {
+    margin: 52px 0 0 24px;
+    line-height: 25.78px;
+}
+
+.second-fake {
+    color: white;
+}
+
+.active-selector {
+    border-radius: 45px;
+    background-color: white;
+}
+
+.fantasy__realization {
+    margin: 205px auto;
+    height: 863px;
+    position: relative;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.fantasy__realization:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../img/Wildest-fantasies.jpg");
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    height: 863px;
+}
+
+.fantasy__realization-container {
+    max-width: 1440px;
+}
+
+.fantasy__realization-header {
+    line-height: 37.5px;
+    width: 395px;
+    margin: 160px 0 0 332px;
+}
+
+.fantasy__realization-list {
+    margin: 38px 0 0 290px;
+}
+
+.fantasy__realization-list > li {
+    margin: 11px 0 0 0;
+}
+
+.fantasy__realization-list a:link, .fantasy__realization-list a:visited, .fantasy__realization-list ul {
+    line-height: 38px;
+}
+
+.fantasy__realization-list a:hover {
+    color: #E3B873;
+    text-decoration: underline;
+}
+
+.fantasy__realization-middle-content {
+    margin: 0 0 0 92px;
+    width: 340px;
+}
+
+.fantasy__realization-middle-content-image01 {
+    margin: -15px 0 35px 0;
+}
+
+.fantasy__realization-right-content {
+    margin: 0 0 0 58px;
+    width: 340px;
+}
+
+.fantasy__realization-right-content-image01 {
+    margin: -85px 0 30px 0;
+}
+
+.our__clients-container {
+    width: 1236px;
+    margin: -70px auto 500px;
+}
+
+.our__clients-container > h3 {
+    margin: 0 0 0 550px;
+}
+
+.our__clients-header-icon {
+    margin: 15px 0 0 560px;
+}
+
+.our__clients-main-content > div {
+    width: 376px;
+    height: 455px;
+}
+
+.our__clients-container > h4 {
+    margin: 13px auto 63px;
+    width: 476px;
+    line-height: 29.5px;
+}
+
+.our__clients-main-content-container {
+    margin: 0 110px 0 20px;
+}
+
+.our__clients-main-content-feedback-header-client-photo {
+    width: 76px;
+    height: 76px;
+}
+
+.our__clients-main-content-feedback-header > h4 {
+    line-height: 22.87px;
+    margin: 16px 0 0 23px;
+}
+
+.our__clients-main-content-feedback-header ~ p {
+    line-height: 23.4px;
+    width: 324px;
+    margin-top: 22px;
+}
+
+.our__clients-main-content-repair-options, .online__control-mobile-container-video-play {
+    background: #E3B873;
+}
+
+.our__clients-main-content-repair-options {
+    margin: 70px 0 0 -20px;
+    width: 294px;
+    height: 54px;
+}
+
+.our__clients-main-content-repair-options > p {
+    padding: 0;
+}
+
+.our__clients-main-content-repair-options-square-meters {
+    margin-left: 18px;
+}
+
+.our__clients-main-content-repair-options-decor-line {
+    margin-right: 15px;
+}
+
+.our__clients-main-content-repair-options-days-of-repair {
+    margin-right: 5px;
+}
+
+.types-of-repair__price-block01 {
+    margin-right: 15px;
+}
+
+.our__clients-have-any-questions-form {
+    width: 883px;
+    height: 445px;
+    margin: -390px auto 0;
+    position: relative;
+    z-index: 2;
+}
+
+.our__clients-have-any-questions-form > h3 {
+    padding-top: 30px;
+    margin-left: 325px;
+}
+
+.our__clients-have-any-questions-form-container {
+    justify-content: center;
+}
+
+.our__clients-have-any-questions-form-name, .our__clients-have-any-questions-form-phone {
+    width: 231px;
+    margin: 34px 30px 0 26px;
+}
+
+.our__clients-have-any-questions-form-question {
+    width: 517px;
+    margin: 55px 0 0 180px;
+}
+
+.our__clients-have-any-questions-form-name-text, .our__clients-have-any-questions-form-phone-text,
+.our__clients-have-any-questions-form-question-text {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 0px;
+}
+
+.our__clients-have-any-questions-form-name > input {
+    margin-top: -40px;
+}
+
+.our__clients-have-any-questions-form-name > input, .our__clients-have-any-questions-form-phone > input, 
+.our__clients-have-any-questions-form-question > input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+}
+
+.our__clients-have-any-questions-form-name > input::-webkit-input-placeholder, 
+.our__clients-have-any-questions-form-phone > input::-webkit-input-placeholder, 
+.our__clients-have-any-questions-form-question > input::-webkit-input-placeholder {
+    color: white;
+    font-size: 14px;
+    line-height: 23px;
+    font-family: "Nunito Sans";
+}
+
+.third-checkbox {
+    margin: 50px 0 0 300px;
+}
+
+.our__clients-have-any-questions-form-button {
+    margin: 46px 0 0 343px;
+    padding: 18px 75px;
+}
+
+.our__location-container {
+    margin: -223px auto 0;
+    height: 954px;
+    position: relative;
+    background-color: rgba(0, 0, 0, .85);
+    display: flex;
+}
+
+.our__location-container::after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../img/Our-location.jpg");
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.our__location-on-the-map {
+    width: 925px;
+}
+
+.our__location-on-the-map-adress {
+    width: 590px;
+    padding-top: 275px;
+}
+
+.our__location-on-the-map-container-icon01, .our__location-on-the-map-container-icon02 {
+    margin: 22px 15px 42px 0;
+}
+
+.our__location-on-the-map-container-icon01 {
+    margin-left: 425px;
+}
+
+.footer, .header__mobile-container, .completed__projects-mobile-container, .online__control-mobile-container, 
+.online__control-mobile-form01-container, .online__control-mobile-form01-container-number, .online__control-mobile-form01-container-name, 
+.mobile__footer-container-form-container {
+    background-color: #181818;
+}
+
+.footer__content-container {
+    height: 140px;
+}
+/* Селекторы для мобильной версии */
+
+.header__mobile-container, .completed__projects-mobile-container,.online__control-mobile-container, 
+.main__showcase-mobile-container, .online__control-mobile-form01-container, .online__control-mobile-container, 
+.types__repair-mobile-container, .mobile__footer-container, .mobile__footer-container-form-container { 
+    width: 375px;
+}
+
+.header__mobile-container { 
+    height: 57px;
+    justify-content: space-around;
+}
+
+.header__mobile-container > p {
+    margin: 25px 0 0 10px;
+}
+
+.main__showcase-mobile-container {
+    height: 496px;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgba(25, 25, 25, .7);
+}
+
+.main__showcase-mobile-container::after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../img/Main-showcase-mobile.jpg');
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.main__showcase-mobile-container > h1.title, .completed__projects-mobile-container > h2.title {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.main__showcase-mobile-container > h1.title {
+    width: 329px;
+    height: 60px;
+    padding-top: 85px;
+}
+
+.main__showcase-mobile-container > h2.subtitle {
+    margin: 78px 0 0 18px;
+}
+
+.main__showcase-mobile-container-calculate-cost-button {
+    padding: 17px 110px;
+    margin: 50px 0 0 18px;
+}
+
+.main__showcase-mobile-container-submit-aplication-button {
+    padding: 17px 133px;
+    margin: 27px 0 0 18px;
+}
+
+.completed__projects-mobile-container {
+    margin: -21px auto;
+}
+
+.completed__projects-mobile-container > h2.title {
+    padding-top: 36px;
+    margin-left: 20px;
+}
+
+.completed__projects-mobile-container > p {
+    line-height: 17.5px;
+    margin: 27px auto;
+}
+
+.completed__projects-mobile-container-slider > img {
+    width: 350px;
+    margin: 45px 0 0 12px;
+}
+
+.completed__projects-mobile-container-ellipse-left {
+    position: relative;
+    top: -143px;
+    left: 32px;
+}
+
+.completed__projects-mobile-container-ellipse-right {
+    position: relative;
+    top: -143px;
+    left: 268px;
+}
+
+.completed__projects-mobile-details-container > div {
+    margin: -25px 3px 25px 18px;
+    width: 140px;
+}
+
+.completed__projects-mobile-details-container > div > h3 {
+    line-height: 19.5px;
+}
+
+.completed__projects-mobile-details-container > div > p {
+    line-height: 18px;
+}
+
+.online__control-mobile-container {
+    margin: 0 auto;
+    position: relative;
+    z-index: -2;
+    padding-bottom: 30px;
+}
+
+.online__control-mobile-container > h2, .types__repair-mobile-container-header {
+    padding-top: 40px;
+    line-height: 30.5px;
+}
+
+.online__control-mobile-container-line-icon01 {
+    margin: 0 0 11px 130px;
+}
+.online__control-mobile-container-camera-icon {
+    margin: 15px 0 0 5px;
+}
+.online__control-mobile-container-line-icon02 {
+    margin: 0 0 10px 5px;
+}
+
+.online__control-mobile-container-video  {
+    margin: 35px auto;
+    width: 340px;
+    height: 207px;
+    position: relative;
+    background-color: rgba(0, 0, 0, .80);
+}
+
+.online__control-mobile-container-video::after  {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../img/Online-control-img.jpg");
+    background-size: contain;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.online__control-mobile-container-video-play {
+    width: 37px;
+    height: 37px;
+    border-radius: 45px;
+    position: relative;
+    top: 85px;
+    left: 152px;
+}
+
+.online__control-mobile-container-video-play-icon {
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: 9px;
+    left: 13px;
+}
+
+.online__control-mobile-decor-line {
+    margin: -20px auto;
+    width: 55px;
+}
+
+.online__control-mobile-container > p {
+    line-height: 18.7px;
+    margin: 32px 0 0 0;
+}
+
+.online__control-mobile-form01-container {
+    margin: -16px auto;
+}
+
+.online__control-mobile-form01-container-div {
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+.online__control-mobile-form01-container-div > p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: -10px;
+}
+
+.online__control-mobile-form01-container-number, .online__control-mobile-form01-container-name {
+    width: 310px;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 10px auto 5px;
+}
+
+.online__control-mobile-form01-container-number::-webkit-input-placeholder, .online__control-mobile-form01-container-name::-webkit-input-placeholder{
+    color: white;
+    font-size: 14px;
+    line-height: 23px;
+    font-family: "Nunito Sans";
+}
+
+.mobile-checkbox01 {
+    margin: 30px 0 0 18px;
+    font-size: 14px;
+}
+
+.online__control-mobile-form01-button-submit01 {
+    margin-top: 60px;
+    margin: 48px 0 -20px 18px;
+    padding: 18px 150px;
+    font-style: normal;
+    position: relative;
+    top: 10px;
+}
+
+.online__control-mobile-form01-button-submit01:hover {
+    background: #181818;
+}
+
+.label > span {
+    color: white;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.types__repair-mobile-container {
+    background: white;
+    margin: 55px auto;
+    padding-bottom: 400px;
+}
+
+.types__repair-mobile-container-icon01 {
+    margin: 0 4px 11px 130px;
+}
+
+.types__repair-mobile-container-icon02 {
+    margin: 14px 0 0 0;
+}
+
+.types__repair-mobile-container-icon03 {
+    margin: 0 0 11px 6px;
+}
+
+.types__repair-mobile-block {
+    width: 340px;
+    margin: 38px auto;
+}
+
+.types__repair-mobile-left-image {
+    width: 340px;
+    height: 356px;
+    background-image: url('../img/Types-of-repar-mobile01.jpg');
+    background-size: cover;
+}
+
+.types__repair-mobile-middle-image {
+    width: 340px;
+    height: 356px;
+    background-image: url('../img/Types-of-repar-mobile02.jpg');
+    background-size: cover;
+    margin-top: 55px;
+}
+
+.types__repair-mobile-right-image {
+    width: 340px;
+    height: 356px;
+    background-image: url('../img/Types-of-repar-mobile03.jpg');
+    background-size: cover;
+    margin-top: 60px;
+}
+
+.types__repair-mobile-text-block {
+    width: 270px;
+    margin: -150px 0 23px 0;
+    z-index: 2;
+}
+
+.types__repair-mobile-text-header, .types__repair-mobile-price-block {
+    font-size: 15px;
+    line-height: 20.8px;
+}
+
+.types__repair-mobile-text-header {
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+.types__repair-mobile-text-lists {
+    line-height: 22px;
+    margin: -6px 0 20px 1px;
+}
+
+.types__repair-mobile-price-block { 
+    width: 190.5px;
+    padding: 10px 0;
+}
+
+.mobile__footer-container {
+    margin: -230px auto;
+    background: #181818;
+}
+
+.mobile__footer-container-header {
+    position: relative;
+    top: -212px;
+    letter-spacing: 1px;
+}
+
+.mobile__footer-container-slider {
+    background-image: url('../img/Wild-fantasy-mobile.jpg');
+    background-size: cover;
+    width: 340px;
+    height: 242px;
+    margin: -175px auto 100px;
+}
+
+.mobile__footer-container-ellipse-left {
+    position: relative;
+    top: -240px;
+    left: 30px;
+}
+
+.mobile__footer-container-ellipse-right {
+    position: relative;
+    top: -240px;
+    left: 270px;
+}
+
+.mobile__footer-container-subtitle {
+    margin-top: -92px;
+}
+
+.mobile__footer-container-form-container {
+    margin: -16px auto;
+}
+
+.mobile__footer-container-map {
+    margin: 83px 0 0 18px;
+    width: 340px;
+    height: 255px;
+}
+
+.mobile__footer-container-our-location-adress {
+    width: 320px;
+    margin: 32px 0 0 30px;
+}
+
+.mobile-our-location-on-the-map-icon01 {
+    margin: 22px 0 0 140px;
+}
+
+.mobile-our-location-on-the-map-icon01, .mobile-our-location-on-the-map-icon02  {
+    width: 40px;
+    height: 40px;
+}
+
+.mobile-our-location-on-the-map-icon02 {
+    margin: 22px 0 0 20px;
+}
+
+.mobile-our-location-container {
+    padding-bottom: 50px;
+}
+
+.label01 > span {
+    color: black;
+}
